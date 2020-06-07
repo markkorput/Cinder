@@ -1,5 +1,6 @@
 cmake_minimum_required( VERSION 3.0 FATAL_ERROR )
 set( CMAKE_VERBOSE_MAKEFILE ON )
+set( CMAKE_OSX_DEPLOYMENT_TARGET "10.11")
 
 # Configure the Android toolchain before the project start
 if( CINDER_TARGET )
